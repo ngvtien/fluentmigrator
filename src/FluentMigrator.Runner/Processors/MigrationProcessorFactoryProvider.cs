@@ -33,6 +33,7 @@ using FluentMigrator.Runner.Processors.Redshift;
 using FluentMigrator.Runner.Processors.SqlAnywhere;
 using FluentMigrator.Runner.Processors.SqlServer;
 using FluentMigrator.Runner.Processors.SQLite;
+using FluentMigrator.Runner.Processors.SybaseAse;
 
 namespace FluentMigrator.Runner.Processors
 {
@@ -71,6 +72,7 @@ namespace FluentMigrator.Runner.Processors
             Register(new SqlAnywhere16ProcessorFactory());
             Register(new HanaProcessorFactory());
             Register(new RedshiftProcessorFactory());
+            Register(new SybaseAseProcessorFactory());
 
 #if NETFRAMEWORK
             Register(new Jet.JetProcessorFactory());

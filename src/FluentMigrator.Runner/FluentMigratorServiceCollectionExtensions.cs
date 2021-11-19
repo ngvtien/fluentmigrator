@@ -291,7 +291,8 @@ namespace Microsoft.Extensions.DependencyInjection
                         .AddSqlServer2012()
                         .AddSqlServer2014()
                         .AddSqlServer2016()
-                        .AddSqlServerCe());
+                        .AddSqlServerCe()
+                        .AddSybaseAse());
         }
 
         private class MigrationRunnerBuilder : IMigrationRunnerBuilder
