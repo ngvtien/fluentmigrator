@@ -54,6 +54,7 @@ namespace FluentMigrator.Runner
                 .AddSqlServer2012()
                 .AddSqlServer2014()
                 .AddSqlServer2016()
+                .AddSybaseAse()
                 ;
         }
     }

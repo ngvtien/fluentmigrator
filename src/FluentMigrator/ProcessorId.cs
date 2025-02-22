@@ -29,5 +29,6 @@ namespace FluentMigrator
         public const string SqlServer2012 = nameof(SqlServer2012);
         public const string SqlServer2014 = nameof(SqlServer2014);
         public const string SqlServer2016 = nameof(SqlServer2016);
+        public const string SybaseAse = nameof(SybaseAse);
     }
 }
